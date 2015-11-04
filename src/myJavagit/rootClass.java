@@ -27,8 +27,31 @@ public class rootClass
 	       massClass massOb = new massClass();
 	       massOb.createmass(Bmass, n);
 	       massOb.printmass(Bmass, n);
+
+	       System.out.println();
+	       /**********static*************/	       
 			
-			
-			
+			stClass.ink();
+			stClass B = new stClass();
+						       
+	        System.out.println("static met = "+ B.funk());
+	        
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        
+	        System.out.println("static met = "+ B.funk());
+	       
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        stClass.ink();
+	        
+	    //  System.out.println("static met = "+ B.ink());
+	        System.out.println("static met = "+ B.funk());
+	       
 	   }
 }
